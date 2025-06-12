@@ -61,6 +61,3 @@ To customize this portfolio for your own use:
 - Add dark mode toggle
 - Implement smooth scrolling for navigation
 
-## License
-
-- Nope
