@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exam</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Guenda Zorz</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="about">
+        <h2>About Me</h2>
+        <p>
+          I am Guenda and I am currently enrolled in a cybersecurity diploma. I
+          have a backgorund in criminology and criminal psychology.
+        </p>
+        <p>
+          When I am not studying, I love going for trekking with my friends,
+          trying new restaurants and spening some time in the nature.
+        </p>
+      </section>
+
+      <section id="skills">
+        <h2>Technical Skills</h2>
+        <ul>
+          <li>OSINT Tools</li>
+          <li>Computer Forensics</li>
+          <li>HTML5</li>
+          <li>CSS</li>
+          <li>Geographical Profiling</li>
+        </ul>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <form action="#" method="post">
+          <div>
+            <label for="name">Name<span aria-hidden="true">*</span></label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Your full name"
+              required
+            />
+          </div>
+          <br />
+          <div>
+            <label for="email">Email<span aria-hidden="true">*</span></label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="you@example.com"
+              required
+            />
+          </div>
+          <br />
+          <div>
+            <label for="subject">Subject</label>
+            <input
+              type="text"
+              id="subject"
+              name="subject"
+              placeholder="Topic (optional)"
+            />
+          </div>
+          <br />
+          <div>
+            <label for="message">Message<span aria-hidden="true">*</span></label
+            ><br />
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              placeholder="Your message here"
+              required
+            ></textarea>
+          </div>
+          <div>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>© 2025 Guenda Zorz</p>
+    </footer>
+  </body>
+</html>
